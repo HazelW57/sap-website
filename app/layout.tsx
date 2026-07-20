@@ -13,11 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Starter Project",
-  description: "A clean starting point for building your site.",
-  other: {
-    "codex-preview": "development",
-  },
+  title: "Saphiant | U.S. Retail Distribution & Recommerce",
+  description:
+    "Saphiant helps consumer brands expand through U.S. retail, marketplaces, fulfillment, and recommerce channels.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
@@ -31,7 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" style={{ colorScheme: "light" }}>
-      <head><meta name="color-scheme" content="light only" /></head>
+      <head>
+        <meta name="color-scheme" content="light only" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
