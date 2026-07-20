@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 
-const logo = "/assets/saphiant-logo.svg";
+const logo = "/assets/saphiant-logo-white.svg";
 
 const capabilities = [
   ["01", "Retail & Marketplace Distribution", "Expand across retail programs, marketplaces and specialty channels with coordinated inventory, pricing and execution."],
