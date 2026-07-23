@@ -18,8 +18,8 @@ const reasons = [
   ["04", "Disciplined Channel Control", "Structured pricing, inventory allocation and channel, specific execution designed to protect brand value."],
 ];
 
-const brandLogos = ["dreame","mova","hyperx","yaber","amazfit","meraw","yesoul","tp-link","cudy","segway","blutron","actbest","gitryin","buture","honiture","outin","toputure","arivea","conano","linner","mondo"].map(name => ({name, src:`/assets/brands/${name}.png`}));
-const channelLogos = ["tiktok","temu","target","amazon","mgm-resorts","walmart","ebay","lowes","micro-center","woot","best-buy","loves","bh","home-depot","sams-club","qvc","hsn","newegg","benlink","dicks","verdi"].map(name => ({name, src:`/assets/channels/${name}.${name === "temu" ? "jpg" : "png"}`}));
+const brandLogos = ["dreame","mova","hyperx","yaber","meraw","yesoul","tp-link","cudy","segway","blutron","actbest","gitryin","buture","honiture","outin","toputure","arivea","conano","linner","mondo"].map(name => ({name, src:`/assets/brands/${name}.png`}));
+const channelLogos = ["tiktok","temu","target","amazon","mgm-resorts","walmart","ebay","lowes","micro-center","woot","best-buy","loves","bh","home-depot","sams-club","newegg","benlink","dicks","verdi"].map(name => ({name, src:`/assets/channels/${name}.${name === "temu" ? "jpg" : "png"}`}));
 
 function LogoRail({items}:{items:{name:string;src:string}[]}) {
   const rail = useRef<HTMLDivElement>(null);
